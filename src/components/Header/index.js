@@ -20,12 +20,12 @@ export default function Header() {
         <Heading fontWeight="semibold" fontFamily="Arial">
           Black Belt Academy
         </Heading>
-
-        <Button
-          
+        <FaFacebook
+          onClick={() => {
+            window.open("https://www.facebook.com/groups/62097309752/");
+          }}
           colorScheme="facebook"
-          leftIcon={<FaFacebook />}
-        ></Button>
+        />
       </Box>
       <Stack direction="row" align="center" justify="center">
         <Image

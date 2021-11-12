@@ -1,6 +1,7 @@
 import RickImage from "../RickImage";
 import { Text } from "@chakra-ui/layout";
 import { Box } from "@chakra-ui/layout";
+import { Button } from "@chakra-ui/button";
 
 import React from "react";
 
@@ -43,6 +44,7 @@ export default function MainContent() {
         look forward to seeing you soon. Rick Young
       </Text>
       </Box>
+     
     </>
   );
 }
